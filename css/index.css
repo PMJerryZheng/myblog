@@ -314,7 +314,7 @@ div#social-media{
 	float: right;
 }
 .text-content a{
-	display: block;
+	display: none;
 	width: 100%;
 	text-align: center;
 	padding-top:20px;
