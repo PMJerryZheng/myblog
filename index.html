@@ -1,8 +1,91 @@
 ---
 layout: default
-title: 我的Blog
+title: JerryZheng 的个人博客
 ---
-<div class="container">
-<div class="row"><h1 >^_^ 博客刚搬来github pages，模板正在重写，会于近期恢复</h1></div>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body> 
+    <header class="visible-md visible-lg">
+        <nav class="navbar navbar-default  navbar-fixed-top jz-docs-nav " role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jz-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><span style="color:#FFF"> Jerry Zheng</span><span style="color:#fff"></span></a>
+            </div>
 
-</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="jz-example-navbar-collapse-2">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li ><a href="./list.html">文章</a></li>
+                <li ><a href="./about.html">&nbsp;我&nbsp;</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+    </header>
+    <div class="container jz-container" >
+      <div class="row" >
+        <div class="col-md-3">
+          <div class="jz-sidebar">
+            <div id="circle-top"></div>
+            <div id="box-body">
+              <div id="avatar-box">
+                <div id="avatar-bg">
+                  <div id="avatar-img" ></div>
+                </div>
+              </div>
+              <h1 id="my-name">Jerry Zheng</h1>
+              <div id="intro">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我叫郑家逸，22岁，广东汕头人，是暨南大学大三在读生，我热爱互联网，热爱互联网，爱好是编程，UI设计。我正在努力成为一名优秀的PM。</p>
+              </div>
+              <div id="social-media">
+                <a class="sm-logo" id="weibo" style="margin-right: 15px;" href="http://weibo.com/412746198" target="_blank"></a>
+                <a class="sm-logo fancybox" id="wechat" rel="group" style="margin-right: 15px;" href="img/QR-code.png" title="打开微信 -> 发现 -> 扫一扫 即可加我为微信好友"></a>
+                <a class="sm-logo" id="mail" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=AXtpZG9ma2hgeGg5OTlBcHAvYm5s" target="_blank"></a>
+              </div>
+            </div>
+            <div id="circle-bottom" ></div>
+          </div>
+        </div>
+        <div class="col-md-9" >
+          {% for post in site.posts %}
+          <div class="row article">
+            <div class="time col-md-2" >2014.4.13<div class="point"></div>
+            <div class="category">产品分析</div></div>
+            <div class="col-md-10 title-box">
+              <div class="title">{{ post.title }}</div>
+              <div class="text-content">这是文章的正文</div>
+            </div>
+          </div>
+          {% endfor %}
+          <div class="row pages">
+            <ul class="pagination">
+              <li><a href="#">&laquo;</a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="jz-footer">
+      <span> © 2014 JerryZheng </span>
+      <BR>
+      <span style="font-size:13px;color:#EEE;line-height:40px;">本博客搭建于Github Pages上，模板由@JerryZheng 基于Bootstrap V3.0开发而成</span>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
