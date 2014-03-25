@@ -237,6 +237,12 @@ div#social-media{
 	color: #666;
 	text-decoration: none;
 }
+.title a i{
+	display: none;
+}
+.title a:hover i{
+	display: inline;
+}
 .title a:hover{
 	color: #77b8a6;
 	text-decoration: none;
