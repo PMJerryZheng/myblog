@@ -228,13 +228,18 @@ div#social-media{
 }
 
 .title{
-	font-size: 27px;
-	line-height: 33px;
 	padding: 0px 0px 10px;
 	color: #666;
 }
-.title{
+.title a{
+	font-size: 27px;
+	line-height: 33px;
+	color: #666;
+	text-decoration: none;
+}
+.title a:hover{
 	color: #77b8a6;
+	text-decoration: none;
 }
 
 .text-content{
