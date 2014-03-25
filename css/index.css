@@ -323,7 +323,11 @@ div#social-media{
 .text-content img{
 	display: none;
 }
-
+.all-text{
+	font-size: 16px;
+	color: #888;
+	float: right;
+}
 
 .pages{
 	margin-top: 70px;
