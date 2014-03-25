@@ -233,6 +233,9 @@ div#social-media{
 	padding: 0px 0px 10px;
 	color: #666;
 }
+.title{
+	color: #77b8a6;
+}
 
 .text-content{
 	color: #888;
@@ -248,7 +251,6 @@ div#social-media{
 	line-height: 16px;
 	padding: 40px 30px 40px;
 	border-right: 2px solid #CCC;
-
 }
 .point{
 	display: inline-block;

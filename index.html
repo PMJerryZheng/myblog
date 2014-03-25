@@ -54,9 +54,9 @@ title: Jerry Zheng的个人博客
         {% for post in site.posts %}
         <div class="row article">
           <div class="time col-md-2" >{{ post.date | date_to_string }}<div class="point"></div>
-          <div class="category">产品分析</div></div>
+          <div class="category">{{ post.category }}</div></div>
           <div class="col-md-10 title-box">
-            <div class="title">{{ post.title }}</div>
+            <div class="title" href="{{ post.url }}">{{ post.title }}</div>
             <div class="text-content">{{ post.excerpt }}</div>
           </div>
         </div>
