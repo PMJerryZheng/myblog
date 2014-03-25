@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+    border: 0;
+    vertical-align: baseline
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {    
+	position: relative; /* For scrollyspy */
+  	padding-top: 50px; /* Account for fixed navbar */
+    font-size: 16px;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+.visible-md,.visible-lg .navbar{
+	font-size: 18px;
+}
+.visible-md,.visible-lg .navbar-brand{
+	font-size: 24px;
+
+}
+.visible-md,.visible-lg .navbar-nav>li>a{
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 18px;
+}
+.navbar {
+	border:0;
+}
+.navbar-default{
+	background-color: #77b8a6;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: #5f9485;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover ,.navbar-default .navbar-nav>.open>a:focus{
+	background-color: #77b8a6;
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #d9fff4;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	background-color: #77b8a6;
+	color: #fff;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	color: #FFF;
+	text-decoration: none;
+	background-color: #473400;
+	border-left: 2px solid #e0a600;
+}
+.dropdown-menu{
+	background-color: rgba(255,255,255,0.90);
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{
+	color: #CCC;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	color: #CCC;
+	background-color: transparent;
+}
+
+.bs-sidebar.affix {
+  position: static;
+}
+
+@media (min-width: 992px) {
+  .jz-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .jz-sidebar.affix,
+  .jz-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .jz-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 50px;
+  }
+  .jz-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .jz-sidebar.affix-bottom .jz-sidenav,
+  .jz-sidebar.affix .jz-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .jz-sidebar.affix-bottom,
+  .jz-sidebar.affix {
+    width: 263px;
+  }
+}
+
+.grey-bg{
+	width: 100%;
+}
+
+.content-box{
+	background-color: #FFF;
+	margin-top: 30px;
+	margin-bottom: 50px; 
+	border: 1px solid #eee;
+	padding: 20px 20px;
+}
+
+.content-box h1{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-bottom:15px; 
+	border-bottom: 1px solid #f0f8f6;
+}
+.content-box p{
+	font-size: 18px;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #555;
+}
+.content-box blockquote{
+	color: #888;
+	border-left: 3px solid #ccc;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #F4F4F4;
+}
+.content-box blockquote address{
+	float: right;
+}
+.content-box a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px; 
+}
+.content-box img{
+	margin:auto;
+	
+	max-width: 560px;
+	max-height: 700px;
+	border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px;
+}
+.hole{
+	margin: auto;
+	height: 12px;
+	width: 12px;
+	border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px;
+	background: #fbfbfb;
+	border: 1px solid #eee;
+}
+.btn-success{
+	background-color: #77b8a6;
+	border-color: #77b8a6;
+}
+.btn-success:hover{
+	background-color: #5f9485;
+}
+
+.pages{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.jz-footer{
+	width: 100%;
+	height: 120px;
+	background-color: #5f9485;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+
