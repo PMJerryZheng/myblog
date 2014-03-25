@@ -239,13 +239,19 @@ div#social-media{
 }
 .title a i{
 	display: none;
+	font-size: 20px;
+	transition: width 0.5s;
+	-moz-transition: width 0.5s; /* Firefox 4 */
+	-webkit-transition: width 0.5s; /* Safari 和 Chrome */
+	-o-transition: width 0.5s; /* Opera */
 }
 .title a:hover i{
 	display: inline;
+	font-size: 20px;
 }
 .title a:hover{
 	color: #77b8a6;
-	text-decoration: none;
+	transition:0.5s;
 }
 
 .text-content{
