@@ -57,7 +57,7 @@ title: Jerry Zheng的个人博客
           <div class="category">{{ post.category }}</div></div>
           <div class="col-md-10 title-box">
             <div class="title" ><a href="{{ post.url }}">{{ post.title }} <i class="glyphicon glyphicon-share-alt"></i></a></div>
-            <div class="text-content">{{ post.excerpt }}</div>
+            <div class="text-content">{{ post.excerpt | remove: '<img>' }}}</div>
           </div>
         </div>
         {% endfor %}
