@@ -28,13 +28,13 @@
     $('.jz-container [href=#]').click(function (e) {
       e.preventDefault()
     })
-
-    $('.article').each(function(i){
-      var time = $(this).children('.time');
-      var content = $(this).children('.title-box');
-      time.css('height',content.css('height'));
-    })
-    
+    setTimeout(function () {
+      $('.article').each(function(i){
+        var time = $(this).children('.time');
+        var content = $(this).children('.title-box');
+        time.css('height',content.css('height'));
+      })
+    }, 100)
     
     $(".fancybox").fancybox({
           width   : '200px',
