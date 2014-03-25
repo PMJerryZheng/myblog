@@ -324,11 +324,15 @@ div#social-media{
 	display: none;
 }
 .all-text{
-	font-size: 16px;
-	color: #888;
+	font-size: 14px;
 	float: right;
 }
-
+.all-text,.all-text:active{
+	color: #aaa;
+}
+.all-text:hover{
+	color: #777;
+}
 .pages{
 	margin-top: 70px;
 	text-align: center;
