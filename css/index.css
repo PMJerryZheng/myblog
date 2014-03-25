@@ -239,7 +239,7 @@ div#social-media{
 }
 .title a i{
 	display: none;
-	font-size: 20px;
+	font-size: 16px;
 	transition: width 0.5s;
 	-moz-transition: width 0.5s; /* Firefox 4 */
 	-webkit-transition: width 0.5s; /* Safari 和 Chrome */
@@ -247,7 +247,7 @@ div#social-media{
 }
 .title a:hover i{
 	display: inline;
-	font-size: 20px;
+	font-size: 16px;
 }
 .title a:hover{
 	color: #77b8a6;
