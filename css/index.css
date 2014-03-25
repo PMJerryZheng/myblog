@@ -327,10 +327,10 @@ div#social-media{
 	font-size: 14px;
 	float: right;
 }
-.all-text,.all-text:active{
+.all-text a,.all-text a:active{
 	color: #aaa;
 }
-.all-text:hover{
+.all-text a:hover{
 	color: #777;
 }
 .pages{
