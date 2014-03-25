@@ -174,7 +174,7 @@ body {
 	background: #fbfbfb;
 	border: 1px solid #eee;
 }
-.btn-success{
+.btn-success,.btn-success:active{
 	background-color: #77b8a6;
 	border-color: #77b8a6;
 }
