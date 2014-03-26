@@ -23,7 +23,18 @@ body {
     margin: 0;
     background-color: #fcfcfc;
 }
-
+.font-green{
+	color: #77b8a6;
+}
+.font-blue{
+	color:#83b0cc;
+}
+.font-red{
+	color:#fe8081;
+}
+.font-yellow{
+	color:#fdad71;
+}
 .visible-md,.visible-lg .navbar{
 	font-size: 18px;
 }
