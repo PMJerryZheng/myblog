@@ -70,5 +70,6 @@
       for(i=0; i<=2; i++ ) 
         imageObj.src=images[i]; 
     } 
+    preloader();
   })
 }(jQuery)
