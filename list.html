@@ -31,7 +31,7 @@ title: Jerry Zheng的文章列表
       <div class="row" >
         <div class="col-md-10 col-md-offset-1 article-box" >
         	<div class="row list-name"><span style="color:#5f9485;">所有</span>类别下的文章</div>
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
           <div class="row article"><a class="list-belong">{{ post.category }}</a><a class="list-line" href="{{ post.url }}">{{ post.title }}</a><span class="list-time">{{ post.date | date_to_string }}</span>
           </div>
           {% endfor %}
