@@ -64,7 +64,7 @@ title: Jerry Zheng的个人博客
         {% endfor %}
         <div class="row pages">
           {% if paginator.previous_page %}
-            <a href="{%if paginator.previous_page==1 %}/index.html{% else %}/page{{ paginator.previous_page }}{% endif %}" class="previous">Previous</a>
+            <a href="{%if paginator.previous_page-1 %}/page{{ paginator.previous_page }}{% else %}/index.html{% endif %}" class="previous">Previous</a>
           {% else %}
             <span class="previous">Previous</span>
           {% endif %}
