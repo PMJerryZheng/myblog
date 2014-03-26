@@ -60,7 +60,10 @@
       // counter 
       var i = 0; 
       // create object 
-      imageObj = new Image(); 
+      images = new Array(); 
+      imageObj[0] = new Image();
+      imageObj[1] = new Image(); 
+      imageObj[2] = new Image(); 
       // set image list 
       images = new Array(); 
       images[0] = "./img/weibo-hover.png" 
@@ -68,7 +71,7 @@
       images[2] = "./img/mail-hover.png" 
       // start preloading 
       for(i=0; i<=2; i++ ) 
-        imageObj.src=images[i]; 
+        imageObj[i].src=images[i]; 
     } 
     preloader();
   })
