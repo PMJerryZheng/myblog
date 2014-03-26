@@ -142,9 +142,13 @@ body {
 	border-bottom: 1px solid #f0f8f6;
 }
 .content-box h2{
+	margin-top: 20px;
 	font-size: 18px;
-	color: #AAA;
+	color: #77b8a6;
 	float: right; 
+}
+.content-box span{
+	color: #aaa;
 }
 .content-box p{
 	font-size: 18px;
