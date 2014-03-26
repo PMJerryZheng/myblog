@@ -54,5 +54,21 @@
       }
     });
     headroom.init();
+
+    function preloader() 
+    { 
+      // counter 
+      var i = 0; 
+      // create object 
+      imageObj = new Image(); 
+      // set image list 
+      images = new Array(); 
+      images[0] = "./img/weibo-hover.png" 
+      images[1] = "./img/wechat-hover.png" 
+      images[2] = "./img/mail-hover.png" 
+      // start preloading 
+      for(i=0; i<=2; i++ ) 
+        imageObj.src=images[i]; 
+    } 
   })
 }(jQuery)
