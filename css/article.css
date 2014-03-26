@@ -142,12 +142,12 @@ body {
 	border-bottom: 1px solid #f0f8f6;
 }
 .content-box h2{
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 18px;
 	color: #77b8a6;
 	float: right; 
 }
-.content-box span{
+.content-box h2 span{
 	color: #aaa;
 }
 .content-box p{
