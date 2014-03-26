@@ -89,7 +89,7 @@
             </div>
           </div>
         <div class="row pages" >
-          <a class="btn btn-default {% if page.next.url %}disabled{% endif %}" href="{{ page.next.url }}"><i class="glyphicon glyphicon-chevron-left"></i> 上一篇</a> <a class="btn btn-success" href="{{ site.url }}/list.html"><i class="glyphicon glyphicon-list"></i> 文章列表</a> <a class="btn btn-default {% if page.previous.url %}disabled{% endif %}" href="{{ page.previous.url }}">下一篇 <i class="glyphicon glyphicon-chevron-right"></i></a>
+          <a class="btn btn-default {% if page.next.url %}{% else %}disabled{% endif %}" href="{{ page.next.url }}"><i class="glyphicon glyphicon-chevron-left"></i> 上一篇</a> <a class="btn btn-success" href="{{ site.url }}/list.html"><i class="glyphicon glyphicon-list"></i> 文章列表</a> <a class="btn btn-default {% if page.previous.url %}{% else %}disabled{% endif %}" href="{{ page.previous.url }}">下一篇 <i class="glyphicon glyphicon-chevron-right"></i></a>
         </div>
         </div>
     </div>
