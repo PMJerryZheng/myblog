@@ -60,7 +60,7 @@
       // counter 
       var i = 0; 
       // create object 
-      images = new Array(); 
+      imageObj = new Array(); 
       imageObj[0] = new Image();
       imageObj[1] = new Image(); 
       imageObj[2] = new Image(); 
